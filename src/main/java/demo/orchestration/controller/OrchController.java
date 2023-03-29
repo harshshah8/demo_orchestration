@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/search")
 public class OrchController {
 
-    @GetMapping("")
+    @GetMapping("/health")
     public HttpStatus health()
     {
         return (HttpStatus.OK);

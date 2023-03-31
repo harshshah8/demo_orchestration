@@ -5,15 +5,16 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class SearchRequesDto {
+public class SearchRequestDto {
 
-    String Column;
-    String Value;
+    String column;
+    String value;
     String joinTable;
     private Operation operation;
 
-    public enum Operation{
-        EQUAL,LIKE,IN,GREATER_THAN,LESS_THAN,BETWEEN,JOIN;
+    public enum Operation
+    {
+        EQUAL,LIKE,IN, GREATER_THAN, LESS_THAN, BETWEEN,JOIN;
     }
     
 }

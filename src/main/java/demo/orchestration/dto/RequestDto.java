@@ -4,15 +4,16 @@ import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
+
 @Getter
 @Setter
 public class RequestDto {
 
-    private List<SearchRequesDto> searchRequesDto;
+    private List<SearchRequestDto> searchRequestDto;
     private GlobalOperator globalOperator;
 
     public enum GlobalOperator{
         AND,OR;
-    }
+    } 
     
 }

@@ -14,7 +14,7 @@ public class OrchestrationApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OrchestrationApplication.class, args);
-		DbToJson();
+		//DbToJson();
 	}
 
 	private static void DbToJson() {

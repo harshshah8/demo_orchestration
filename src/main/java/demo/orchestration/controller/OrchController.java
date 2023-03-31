@@ -29,10 +29,10 @@ public class OrchController {
     }
 
     @PostMapping("/check")
-    public ResponseEntity<UserData> check(@RequestBody UserData userData)
+    public ResponseEntity<RequestDto> check(@RequestBody RequestDto requestDto)
     {
         //System.out.println(requestDto.toString());
-        return new ResponseEntity<>(userData,HttpStatus.OK);
+        return new ResponseEntity<>(requestDto,HttpStatus.OK);
 
     }
 
